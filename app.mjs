@@ -1,26 +1,26 @@
-// //Q:1
-// let firstName = prompt("Enter First Name:");
-// let lastName = prompt("Enter Last Name:");
+//Q:1
+let firstName = prompt("Enter First Name:");
+let lastName = prompt("Enter Last Name:");
 
-// let fullName = firstName +" "+ lastName ;
-// console.log(fullName)
+let fullName = firstName +" "+ lastName ;
+console.log(fullName)
 
-// //Q:2
-// let mobileName = prompt("enter Your Favourite Mobile Name");
-// let lengthOfMobileName = mobileName.length;
-// console.log(`Your Favourite Mobile is ${mobileName}`);
-// console.log(`Length Of String ${lengthOfMobileName}`);
+//Q:2
+let mobileName = prompt("enter Your Favourite Mobile Name");
+let lengthOfMobileName = mobileName.length;
+console.log(`Your Favourite Mobile is ${mobileName}`);
+console.log(`Length Of String ${lengthOfMobileName}`);
 
-// //Q:3
-// let word = "Pakistani"
-// for(let i= 0 ; i<word.length ; i++){
-//     console.log(word[i]);
-//     if(word[i] === "n"){
-//         console.log(`${word}`)
-//         console.log(`Found ${word[i]} at index ${i} `);
-//         break;
-//     }
-// }
+//Q:3
+let word = "Pakistani"
+for(let i= 0 ; i<word.length ; i++){
+    console.log(word[i]);
+    if(word[i] === "n"){
+        console.log(`${word}`)
+        console.log(`Found ${word[i]} at index ${i} `);
+        break;
+    }
+}
 
 ////Q:4
 let String = "Hello World"
